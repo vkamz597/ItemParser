@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/vkamz597/ItemParser
+build-by-default: true
+branches:
+- api/5
+projects:
+  ItemSavedTest:
+    path: ItemSavedTest/
+  ItemParser:
+    path: ""
+    model: virion
+    type: library
+...
